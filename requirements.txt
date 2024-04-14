@@ -1,0 +1,22 @@
+# dl
+transformers[torch]
+torch
+accelerate>=0.21.0
+
+# data
+tokenizers
+datasets
+evaluate
+fast-aug==0.1.0
+
+# utils
+scipy
+scikit-learn
+tqdm
+torchinfo
+click
+neptune
+python-dotenv
+
+# distutils was removed in python 3.12, but used in transformers
+setuptools; python_version>="3.12"
